@@ -328,8 +328,12 @@ img {
   width: 100%;
   height: 125px; }
   .header-area .top-header {
-    width: 100%;
-    height: 95px; }
+    position: fixed;
+    width: 100px;
+    height: 95px;;
+    z-index: 1000;
+    padding-left: 10px;
+   }
     .header-area .top-header .login-content a {
       display: inline-block;
       font-weight: 600; }
@@ -818,6 +822,15 @@ img {
   background-color: #232323; }
   .main-footer-area .footer-widget .widget-title {
     margin-bottom: 45px; }
+  .main-footer-area .footer-widget .widget-tit {
+    margin-bottom: 20px; }
+    .main-footer-area .footer-widget .widget-tit h6 {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 0;
+      color: #ffffff;
+      margin-top: 10px;
+      text-transform: uppercase; }
     .main-footer-area .footer-widget .widget-title h6 {
       font-size: 14px;
       font-weight: 500;
